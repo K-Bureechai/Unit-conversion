@@ -1,0 +1,99 @@
+h1 {
+    padding: 33px 5px;
+}
+
+p,
+h3,
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container,
+#unitInput,
+#convertBtn,
+.length,
+.volume,
+.mass {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 550px;
+    background-color: #1F2937;
+}
+
+.top-container {
+    background-color: #6943FF;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.buttom-container {
+    padding: 40px 0 10px;
+}
+
+#unitInput {
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    font-size: 58px;
+    font-weight: 800px;
+    text-align: center;
+    background-color: transparent;
+}
+
+#convertBtn:hover {
+    width: 117px;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    padding: 15px 27px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
+
+#convertBtn {
+    width: 117px;
+    color: #3D3D3D;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 27px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
+
+.length,
+.volume,
+.mass {
+    width: 500px;
+    margin-bottom: 30px;
+    padding: 21px 0;
+    background-color: #273549;
+    border-top-left-radius: 5px;
+}
