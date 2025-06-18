@@ -55,24 +55,11 @@ body {
     height: 83px;
     border: 2px solid #B295FF;
     border-radius: 5px;
-    color: white;
+    color: white !important;
     font-size: 58px;
     font-weight: 800px;
     text-align: center;
-    background-color: transparent;
-}
-
-#convertBtn:hover {
-    width: 117px;
-    color: white;
-    font-size: 16px;
-    background-color: transparent;
-    border: 2px solid #B295FF;
-    border-radius: 5px;
-    padding: 15px 27px;
-    margin-top: 34px;
-    margin-bottom: 34px;
-    cursor: pointer;
+    background-color: transparent !important;
 }
 
 #convertBtn {
@@ -81,6 +68,19 @@ body {
     font-size: 16px;
     background-color: white;
     border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 27px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
+
+#convertBtn:hover {
+    width: 117px;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #B295FF;
     border-radius: 5px;
     padding: 15px 27px;
     margin-top: 34px;
